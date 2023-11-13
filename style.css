@@ -28,17 +28,40 @@ main{
     background-color:#fff;
     padding:1rem;
     border-radius:10px;
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction:column;
     align-items:center;
+    justify-content: center;
 }
 
-#addTasks{
-    
-}
-
-#addTasks p input{
-    display:inline-block;
+#addTask{
     width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+   justify-content: center;
+
+}
+
+#addTask div{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    border-radius: 14px;
+   
+}
+
+#addTask a{
+   
+   
+    padding:8px;
+    background-color: #F24405;
+    color:white;
+    border-radius: 15px;
+}
+
+#addTask input{
+    font-size:1.5rem;
+    border:none;
+    border-radius: 15px;
+    padding:1%;
 }

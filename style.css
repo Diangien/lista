@@ -107,3 +107,14 @@ input[type=checkbox]{
 .rasurado{
     text-decoration: line-through;
 }
+
+
+#salvar{
+    clip-path: none;
+}
+
+#save{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

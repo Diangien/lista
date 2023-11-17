@@ -71,6 +71,7 @@ main{
     color:white;
     padding:1%;
     border-radius:10px;
+    transition:all .5s;
 }
 
 .tarefa{
@@ -79,6 +80,7 @@ main{
     justify-content: space-between;
     height: 35px;
     align-items: center;
+    transition: all .5s;
 }
 
 
@@ -95,3 +97,13 @@ main{
     word-wrap:break-word;
 }
 
+input[type=checkbox]{
+    width:25px;
+    height: 30px;
+    clip-path: circle(40%);
+}
+
+
+.rasurado{
+    text-decoration: line-through;
+}
